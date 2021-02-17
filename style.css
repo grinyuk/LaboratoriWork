@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+img{
+	display: block;
+	width: 100%;
+}
+
+.main-wrap{
+	width: 1100px;
+	margin:0 auto;
+	display: flex;
+}
+
+/*----- Start of LEFT-SIDE styles ------*/
+.left-side{
+	width: 300px;
+	padding-top:30px;
+	padding-left:30px;
+	background-color:#1e2939;
+	color:#fff;
+}
+.photo{
+	margin-left:-30px;
+	widows: 50px;
+}
+.left-side__title{
+	padding-bottom:10px;
+	font-size:1.2em;
+	font-weight:bold;
+
+}
+.contacts i{
+	color:#fff;
+}
+.phone a{
+	margin-bottom:10px;
+	text-decoration:none;
+}
+.phone a, .mail a{
+	color:#767681;
+}
+.contacts, .skills{
+	padding-top:40px;
+}
+.skills ul{
+	padding-left:15px;
+}
+.skills ul li::marker{
+	color:#f36c3e;
+}
+
+/*----- End of LEFT-SIDE styles ------*/
+.right-side{
+	width:680px;
+	background:#fff;
+	padding-left: 60px;
+  background: rgb(253,253,253);
+  background: linear-gradient(148deg, rgba(253,253,253,1) 0%, rgba(73,73,73,0.4321078773306197) 54%, rgba(255,255,255,1) 100%);
+}
+
+.name_surname{
+	padding: 10px 0px 25px 0px;
+}
+
+.about{
+	padding-right: 50px;
+	font-size: 14px;
+}
+
+.subheading{
+	margin: 40px 0 0 -50px;
+	font-weight: bold;
+	font-size: 20px;
+  text-align: center;
+}
+
+.projects ol {
+	padding-left:15px;
+
+}
+
+.projects ol li::marker{
+	font-weight: bold;
+}
+.projects li{
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.subheading-content{
+	padding: 15px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.orange-article{
+	color:#f36c3e;
+	margin-left: 10px;
+}
+
+.date-article{
+	padding: 10px 0px 0px 0px;
+	font-size: 10px;
+	color: grey;
+}
+
+.stick{
+	margin-left: 5px;
+	margin-right: 5px;
+	color: black;
+	font-weight: bold;
+}
+
+.list{
+	padding: 10px 0px 0px 0px;
+}
+
+.list ul{
+	padding-left:15px;
+}
+
+.list li{
+	font-size: 14px;
+	padding: 5px 0px 5px 0px;
+}
+
+.portfolio-images {
+  width: 90%;
+  padding: 10px 0 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-title {
+  margin-top: 30px;
+}
+
+.menu-item a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: #FFF;
+  transition: color 0.5s;
+}
+
+.menu-item a:hover {
+  color: #aaa;
+}
+
+.project-list {
+  padding-left: 15px;
+}
+
+nav {
+  height: 30px;
+  padding-top: 5px;
+  background-color: #1e2939;
+  margin-left: -60px;
+  padding-left: 15px;
+}
