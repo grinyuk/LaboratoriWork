@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  font-size: 18px;
+  font-family: Verdana;
+  margin: 20px 250px;
+  padding: 0 50px;
+  border: 1px solid black;
+}
+
+figcaption {
+  margin: 0 0 15px 20px;;
+
+}
+
+.author {
+  padding: 15px 0;
+}
+
+.image {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
