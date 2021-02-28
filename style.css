@@ -10,6 +10,7 @@ html {
 
 body{
 	font-family: 'Montserrat', sans-serif;
+	background-color: #ececec;
 }
 
 img{
@@ -22,7 +23,7 @@ a {
 }
 
 .main-wrap{
-	width: 1100px;
+	width: 1000px;
 	margin:0 auto;
 	display: flex;
 }
@@ -39,12 +40,13 @@ a {
 	margin-left:-30px;
 	widows: 50px;
 }
+
 .left-side__title{
 	padding-bottom:10px;
 	font-size:1.2em;
 	font-weight:bold;
-
 }
+
 .contacts i{
 	color:#fff;
 }
@@ -70,6 +72,7 @@ a {
 	width:680px;
 	background:#fff;
 	padding-left: 60px;
+	padding-bottom: 500px;
   background: rgb(253,253,253);
   background: linear-gradient(148deg, rgba(253,253,253,1) 0%, rgba(73,73,73,0.4321078773306197) 54%, rgba(255,255,255,1) 100%);
 }
@@ -190,7 +193,11 @@ nav {
 	color: #000;
 }
 
-.nested-list a:hover { 
+.nested-list a:hover {
 	background-color: #9c9c9c;
   background-image: linear-gradient(62deg, rgba(156,156,156,0.9) 0%, rgba(212,212,212,0.8) 100%);
+}
+
+.project-list li:first-child .fas {
+	margin-left: 3px;
 }

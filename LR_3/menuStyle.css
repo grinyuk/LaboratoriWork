@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  background-color: PaleVioletRed;
+  list-style: none;
+  width: 200px;
+  border: 1px solid MediumVioletRed;
+  margin: auto;
+  vertical-align: middle;
+}
+
+nav ul li {
+  border-bottom: 1px solid MediumVioletRed;
+  padding: 5px;
+}
+
+nav ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
