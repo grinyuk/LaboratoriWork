@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+}
+
+.wrap {
+	width: 800px;
+	margin: 10px auto;
+}
+
+.main-img {
+	width: 100%;
+	margin: 20px 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	border-top: 1px solid #333;
+	padding-bottom: 30px;
+}
+
+p {
+	margin: 20px 0;
+	text-indent: 30px;
+}
+
+.second-img {
+	float: right;
+	margin: 30px 0 30px 30px;
+}
+
+.footer {
+	clear: both;
+	background-color: cadetblue;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+}
